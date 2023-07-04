@@ -1,0 +1,23 @@
+.selector2{
+    /* font details */
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  20px;
+    font-weight: 3rem;
+    font-style: italic normal;
+    color: #333;
+    /* spacing */
+    line-height: 1.5em;
+    letter-spacing:1rem;
+    word-spacing: 2rem;
+    width: 40ch;
+    /* text style */
+    text-align: center left right justify;
+    text-indent: 2rem;
+    text-decoration: underline line-through;
+    text-transform: uppercase lowercase capitalize;
+    /* column */
+    column-count:2;
+    column-gap: 2rem;
+    column-rule: 3px dotted #333;
+    direction: ltr rtl;
+}

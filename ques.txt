@@ -1,0 +1,82 @@
+javascript
+=========== 
+1. == vs ===
+2. setTimeout vs setInterval
+3. var vs let vs const
+4. is javascript async ?
+5. how to resolve CORS issue ?
+6. promise vs async await .
+7. 3 phases of event propagation ?
+8. what is debouncing and throttling ?
+9. rules to follow for rest operator ?
+10. closures ?
+11. 
+
+
+
+
+
+
+
+
+
+Hoisting
+What is scope
+
+
+
+Rest and spread 
+Aero vs normal function 
+Sharepoint 
+Reconcilation in react
+Class vs functional component
+What is component composition 
+Decorators in react
+Closure vs callback
+Challenges in react
+Microfrontend
+Reconciliation 
+Nested reducer
+
+
+React
+=======
+1. advantages of react
+2. List all hooks
+3. useMemo and useCallback
+4. how to use interceptors
+5. what is forwardRefs ?
+6. what is render props ?
+7. private routes ?
+8. react microfrontend ?
+9. how to handle nested forms ?
+10. what is web accessability ?
+11. how to resolve CORS issue in react and node ?
+12. challenges in react ?
+13. reconsilation in react ?
+14. diff between context and redux ?
+Class bases lifecycle methods
+HOC connect
+Redux flow
+Redux vs context API
+UseReducer
+Why react ?
+Symantic tag in html
+Progressive web app
+Service worker in pwa 
+Webpack babel
+What is web accciability
+Error boundary
+Tree shacking
+
+
+
+redux
+======
+1. how many stores can be created in redux ?
+
+HTML CSS
+==========
+1. how to restrict to particular file upload.
+2. HTML 5 new APIs ?
+

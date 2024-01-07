@@ -1,0 +1,59 @@
+Questions:
+==========
+1. find out only duplicates form the array.
+2. remove duplicates form array.
+3. find elemets present in both array1 and array2.
+4. find vowels in a string.
+5. find triple repeated numbers in array. [1,1,1,2,3,3,4,4,4,5,6,7,7,7]
+6. reverse array without inbuild methods.
+7. swap variables without using a 3rd variable.
+8. move zeros to the end of array.
+9. const str = "today    is  saturday   "; find length of saturday ?
+
+let arr = str.split("")
+let removed = arr.map((ele,i)=>{
+  if(ele === " " && arr[i+1] === " "){
+    return;
+  }
+  return ele;
+}).join("")
+console.log(removed)
+
+10.if name is same then add salary of both object. 
+
+const obj = [
+  {name: "ram", sal : 1000},
+  {name: "laxman", sal : 1500},
+  {name: "sita", sal : 2000},
+  {name: "hanuman", sal : 2500},
+  {name: "ram", sal : 3000}
+]
+
+const newObj = {}
+obj.forEach((item)=>{
+  if(newObj[item.name]){
+    newObj[item.name] = {...newObj[item.name], sal:newObj[item.name].sal+item.sal}
+  } else{
+    newObj[item.name] = item
+  }
+})
+console.log(Object.values(newObj))
+
+11. how many times word occured in string ?
+
+const repeted = (str, word)=>{
+  
+  let arr = str.split(word);
+  console.log(arr.length-1);
+}
+const str = 'abckjhhksjllkjlabcj;jlabc'
+repeted(str, 'abc');
+
+
+react
+=======
+1. create a form "name", "email", "password" with validation.
+2. create pagination for large data.
+
+
+ 
